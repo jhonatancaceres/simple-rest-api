@@ -1,0 +1,183 @@
+- name: Portfolio
+  image: briefcase.png
+  description: Web Application to easily visualize, organize, and manage the history of technology projects in one place.
+  sourceUrl: https://github.com/jhonatancaceres/projects
+  techStack:
+    - postgresql
+    - react
+    - nextjs
+    - typescript
+    - prisma
+    - github
+    - trello
+
+  techDefinition: Full-stack web application.
+  roles:
+    - Full Stack Developer
+  owners:
+    - Free
+  duration: 2025
+
+- name: Atria / Unio
+  image: atria-logo.png
+  description: SaaS / CRM / Helpdesk platform for wealth management
+  about: '<p class=\"p-4\">Atria is a wealth management platform designed for financial advisors and enterprises, offering: </p> <ul class="p-8 list-disc"><li>Unified client data management (aggregating accounts, holdings, and financial plans).</li><li>Compliance & reporting tools (for SEC/FINRA-regulated workflows).</li><li>API-driven integrations with custodians (e.g., Fidelity, Schwab) and fintech tools.</li><li>White-label solutions for large firms to customize the platform.</li><li>(Key differentiator: It’s not a generic CRM but a vertical-specific platform for finance.)</li></ul>'
+  url: https://atriawealth.com
+  techStack:
+    - postgresql
+    - angular
+    - rubyonrails
+    - nodejs
+    - typescript
+    - javascript
+    - github
+    - jira
+    - neo4j
+  techDefinition: Hybrid system monolitick microservices, etc
+  sourceUrl: https://github.com/orcasnet
+  roles:
+    - Full Stack Developer
+    - Tech Lead - Account Opening
+  owners:
+    - Atria
+    - Globant
+  duration: 2020-2025
+
+- name: SNI
+  image: sni.png
+  description: Web Application to show the location of universities and the study opportunities they offer and other relevant indicators
+  url: https://prosecucionsnimppeu.github.io/sniview/
+  techStack:
+    - postgresql
+    - python
+    - django
+    - github
+    - javascript
+
+  techDefinition: Monolithic Web Application <br/> 	* Rapid prototyping with admin panel, auth, ORM out-of-the-box
+  roles:
+    - Full Stack Developer
+  owners:
+    - Free
+  duration: 2024
+
+- name: Sourceability
+  image: sourceability.png
+  description: Global electronics distributor and supply chain solutions provider (ERP, SCM).
+  url: https://sourceability.com/
+  techStack:
+    - angular
+    - dotnet
+    - msql
+    - csharp
+    - jenkins
+    - github
+    - typescript
+    - jira
+
+  techDefinition: Monolithic Web Application
+  roles:
+    - Full Stack Developer
+  owners:
+    - Sourceability
+    - Globant
+  duration: 2019-2020
+
+- name: Mediateca
+  image: mediateca.png
+  description: The INAH Media Library is a repository of digital objects representing objects, documents, and resources of very different origins, formats, and themes.
+  about: <p class="p-4"><h4>Screenshot</h4><img src="img/mediateca_screen.png" /></p>
+  techStack:
+    - ionic
+    - angular
+    - typescript
+    - laravel
+    - postgresql
+    - asana
+    - bitbucket
+
+  techDefinition: Client-server model with a hybrid mobile app approach
+  roles:
+    - Frontend Developer
+  owners:
+    - Free
+  duration: 2022-2023
+
+- name: GoDoc
+  image: godoc.png
+  description: Mobile application for the management and analysis of medical prescriptions
+  about: <p class="p-4"><h4>Splash screen</h4><img src="img/godoc-splash.png" style="max-width:400px" /></p>
+  techStack:
+    - ionic
+    - angular
+    - typescript
+    - laravel
+    - postgresql
+    - asana
+    - bitbucket
+
+  techDefinition: Client-server model with a hybrid mobile app approach
+  roles:
+    - Frontend Developer
+  owners:
+    - Free
+  duration: 2022
+
+- name: Conac
+  image: conac.png
+  description: Hybrid mobile application for the registration and tracking of courses and events for the "Colegio Nacional de Actuarios"
+  techStack:
+    - ionic
+    - angular
+    - typescript
+    - laravel
+    - postgresql
+    - asana
+    - bitbucket
+
+  techDefinition: Client-server model with a hybrid mobile app approach
+  roles:
+    - Frontend Developer
+  owners:
+    - Free
+  duration: 2022
+
+- name: Canacar
+  image: canacar.png
+  description: Multipurpose hybrid mobile application for the support of "Camara Nacional de Autotransporte de Carga" members
+  about: <p class="p-4"><h4>Splash screen</h4><img src="img/canacar_splash.png" style="max-width:400px" /></p>
+  techStack:
+    - ionic
+    - angular
+    - typescript
+    - laravel
+    - postgresql
+    - asana
+    - bitbucket
+
+  techDefinition: Client-server model with a hybrid mobile app approach
+  roles:
+    - Frontend Developer
+  owners:
+    - Free
+  duration: 2021-2022
+
+- name: Universo
+  image: logo_universo.png
+  description: Universo de Letras - Hybrid mobile application for the promotion of reading and writing aimed at students, teachers and members of the UNAM university community.
+  about: <p class="p-4"><h4>Splash screen</h4><img src="img/universo_ilustration.svg" style="max-width:400px" /></p>
+  techStack:
+    - ionic
+    - angular
+    - typescript
+    - laravel
+    - postgresql
+    - asana
+    - bitbucket
+
+  techDefinition: Client-server model with a hybrid mobile app approach
+  roles:
+    - Frontend Developer
+  owners:
+    - Free
+  duration: 2021
