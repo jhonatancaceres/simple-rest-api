@@ -31,9 +31,8 @@ export const processController = {
   },
   createElement: async (req: Request, res: Response) => {
 
-    const flow = req.body.flow;
-    const process = req.body.process;
-    const path = `${flow}/${process}`;
+    console.log('Path', req.body)
+    const path = req.body.path;
 
     if (!responses[path]) {
       responses[path] = { numberOfFails: 0, counter: 0 };
@@ -43,10 +42,10 @@ export const processController = {
 
     if (response.counter < response.numberOfFails) {
       response.counter = response.counter + 1;
-      res.json(failResponse);
+      res.json({ ...failResponse, path:path });
     } else {
       response.counter = 0;
-      res.json(successResponse);
+      res.json({ ...successResponse, path:path });
     }
   },
 };

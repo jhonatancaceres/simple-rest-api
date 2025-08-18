@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 
-const messages: { type: 'string', text: string }[] = [];
+const messages: { path: string; type: 'string'; text: string }[] = [];
 
 export const messageController = {
   getElements: async (req: Request, res: Response) => {
