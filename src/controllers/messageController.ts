@@ -9,12 +9,10 @@ export const messageController = {
   },
 
   createElement: async (req: Request, res: Response) => {
-
-    console.log(req.body)
+    
     const item = req.body;
 
-    messages.push(item);
-
+    messages.push({...item, name: 'Test'});
     res.json(item);
   },
   deleteAll: async (req: Request, res: Response) => {
